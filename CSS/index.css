@@ -47,11 +47,17 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 65px;
+    height: 100px;
+}
+
+.menu img {
+    margin: 3em 0 0 2em;
+    width: 100px;
+    height: auto;
 }
 
 .nav li{
-    margin-right: 100px;
+    margin-right: 150px;
     display: inline;
 }
 
@@ -74,4 +80,19 @@ table {
     border-radius: 1px;
     color: orange;  
 }
+
+.search-bar {
+    display: flex;
+    margin-right: 3em;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.search-bar input {
+    outline: none;
+    padding: 8px 5px;
+}
+
+
 
