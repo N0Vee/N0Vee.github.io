@@ -57,7 +57,7 @@ table {
 }
 
 .nav li{
-    margin-right: 150px;
+    margin: 0 4.5em;
     display: inline;
 }
 
