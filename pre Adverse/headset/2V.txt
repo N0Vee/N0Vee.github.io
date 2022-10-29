@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/2V.jpg" alt="">
+        <p>WIRELESS HEADSET (หูฟังไร้สาย) LOGITECH G G733 LIGHTSPEED WIRELESS (BLACK)</p>
+        <p> 4,590 baht</p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• Headset Response : 20 Hz - 20000 Hz <br>
+            • Mic Response : 100 Hz - 10000 Hz </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/2V.jpg" alt="">
+        <p>HEADSET (หูฟัง) HyperX GAMING GEAR CLOUD REVOLVER S GUN METAL 7.1 WITH DSP SOUND CARD</p>
+        <p> 4,490baht </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• คุณภาพเสียงระดับสตูดิโอช่วยให้คุณได้ยินแม้เสียงที่อยู่ไกลออกไป <br>
+            • เมมโมรี่โฟมลิขสิทธิ์เฉพาะของ HyperX ที่มีรางวัลรับรองช่วยให้มั่นใจว่าจะรู้สึกสบายเต็มที่ขณะสวมใส่ <br>
+            • โครงเหล็กกล้าเนื้อตันที่ทนทานเชื่อมั่นได้เต็มที่
+    </div>
+</body>
+</html>

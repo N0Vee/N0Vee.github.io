@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <div>
+        <img src="Images\6M.jpg" alt="">
+        <p>RAZER | VIPER ULTIMATE Wireless Gaming Mouse with Charging Dock  QUARTZ </p>
+        <p> 4,990 BAHT  </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>  เมาส์เกมมิ่งไร้สาย พร้อมแท่นชาร์จ <br>
+            SENSOR : FOCUS+ OPTICAL ปรับได้สูงสุด 20,000 DPI <br>
+            RAZER™ OPTICALL MOUSE SWITCHES <br>
+            เทคโนโลยีไร้สาย Razer™ Hyperspeed Wireless เร็วกว่าปกติ 25% <br>
+            เหมาะสำหรับมือขวา และ มือซ้าย <br>
+            มีไฟ Chroma RGB ปรับสีได้ <br>
+            ตั้งมาโครได้ 8 ปุ่ม <br>
+            รองรับ Synapse3 <br>
+            มีหน่วยความจำออนบอร์ด 5 โปรไฟล์ <br>
+            ชาร์จเต็ม 1 ครั้งใช้งานได้ประมาณ 70 ชั่วโมง <br>
+            น้ำหนักเบา 
+              
+            
+            </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <div>
+        <img src="Images\2M.jpg" alt="">
+        <p>MOUSE  GLORIOUS MODEL O BLACK</p>
+        <p>3,990 BAHT  </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>Type:2.4Ghz Wireless <br>
+            Certification:CE <br>
+            Number of Rollers:1 <br>
+            DPI:19000 <br>
+            Package:Yes <br>
+            Number of Buttons:6 <br>
+            Operation Mode:Opto-electronic <br>
+            Power Type:Rechargeable <br>
+            Model Number:Model O Wireless <br>
+            Hand Orientation:Both Hands
+            </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <div>
+        <img src="Images\1M .jpg" alt="">
+        <p>MOUSE  GLORIOUS MODEL O (MATTE WHITE)</p>
+        <p>3,399 BAHT  </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• DPI : 400 - 12,000 <br>
+            • Button : 6 <br>
+            • Lighting : RGB <br>
+            • Connectivity : USB 2.0 (Wired)</p>
+    </div>
+</body>
+</html>

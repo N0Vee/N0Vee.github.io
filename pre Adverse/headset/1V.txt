@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/1V.jpg" alt="">
+        <p>HEADSET (หูฟัง) LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+        <p> 4,590 baht v</p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• Headset Response : 20 Hz - 20000 Hz <br>
+            • Mic Response : 100 Hz - 10000 Hz </p>
+    </div>
+</body>
+</html>

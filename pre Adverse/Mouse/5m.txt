@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <div>
+        <img src="Images\5M.jpg" alt="">
+        <p>Razer Gaming Mouse Basilisk V3 Pro</p>
+        <p> 5,090 BAHT </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>  Razer Focus Pro 30K DPI Optical Sensor <br>
+            ปรับแต่งแสงสีบนตัวเม้าส์ได้มากกว่า16.8ล้านสี <br>
+            RAZER HYPERSCROLL TILT WHEEL 4 ทิศทาง  
+            
+            </p>
+    </div>
+</body>
+</html>

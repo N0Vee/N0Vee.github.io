@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/2V.jpg" alt="">
+        <p>HEADSET (หูฟังไร้สาย) ASUS ROG STRIX WIRELESS 7.1 VIRTUAL PC MAC CONSOLE COMPATIBLE </p>
+        <p>4,590baht </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>ASUS NO.1 GAMING BRAND
+            HEADSET RESPONSE : 20 Hz - 20000 Hz<br>
+            MIC RESPONSE : 50 Hz - 16000 Hz 
+    </div>
+</body>
+</html>

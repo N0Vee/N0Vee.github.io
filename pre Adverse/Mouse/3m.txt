@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+    <div>
+        <img src="Images\3M.jpg" alt="">
+        <p>WIRELESS MOUSE LOGITECH G PRO-X SUPERLIGHT (BLACK)</p>
+        <p>4,490 BAHT </p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• 100-25400 DPI <br>
+            • 5 Button <br>
+            • USB-A <br>
+            • Windows / Mac <br>
+            คุณสมบัติทางกายภาพ <br>
+            ความสูง : 125.0 มม. <br>
+            ความกว้าง : 63.5 มม. <br>
+            ความลึก : 40.0 มม. <br>
+            น้ำหนัก : 63 กรัม
+            </p>
+    </div>
+</body>
+</html>

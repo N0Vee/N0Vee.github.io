@@ -1,0 +1,14 @@
+
+<body>
+    <div>
+        <img src="/Images/1K.jpg" alt="">
+        <p>Logitech Gaming Keyboard G Pro X Black</p>
+        <p> 4,690 baht</p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• Switch : GX Blue Clicky <br>
+            • Lighting : RGB <br>
+            • Keycap Font : English <br>
+            • Connectivity : USB 2.0 Type-A </p>
+    </div>
+</body>
+</html>

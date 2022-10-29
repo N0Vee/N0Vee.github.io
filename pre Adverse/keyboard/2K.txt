@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/2K.jpg" alt="">
+        <p>KEYBOARD (คีย์บอร์ด) LOGITECH G G813 LIGHTSYNC RGB GL LINEAR SWITCH (RGB LED)</p>
+        <p>  3,990 baht</p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• Switch : Low-Profile (GL Linear Switch) <br>
+            • Lighting : RGB <br>
+            • Keycap Font : English/Thai <br>
+            • Connectivity : USB 2.0 Type-A </p>
+    </div>
+</body>
+</html>

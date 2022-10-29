@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1M</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <div>
+        <img src="/Images/3K.jpg" alt="">
+        <p>KEYBOARD (คีย์บอร์ด) HyperX ALLOY ELITE 2 (HyperX RED SWITCH) (RGB LED)</p>
+        <p> 4,590 baht</p>
+        <p>รายละเอียดสินค้าโดยย่อ</p>
+        <p>• Switch : HyperX Red Switch (Linear) <br>
+            • Lighting : RGB <br>
+            • Keycap Font : English <br>
+            • Connectivity : USB (Wired) </p>
+    </div>
+</body>
+</html>
