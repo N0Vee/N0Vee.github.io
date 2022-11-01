@@ -1,3 +1,3 @@
 # Adverse
 
-Gaming Shop that sell gaming gear and grahpic card
+Gaming gear store reference by Advice
