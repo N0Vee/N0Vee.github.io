@@ -10,7 +10,7 @@
 <body>
     <div>
         <img src="/Images/2V.jpg" alt="">
-        <p>HEADSET (หูฟัง) HyperX GAMING GEAR CLOUD ALPHA </p>
+        <p>HEADSET (หูฟัง) HyperX GAMING GEAR CLOUD ALPHA</p>
         <p> 2,390 baht   </p>
         <p>รายละเอียดสินค้าโดยย่อ</p>
         <p>• HyperX Dual Chamber Drivers ช่วยให้การแยกเสียงเด่นชัดมากขึ้น การเพี้ยนเสียงลดลง <br>
