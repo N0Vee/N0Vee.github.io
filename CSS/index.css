@@ -437,3 +437,41 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
 }
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 400px;
+    height: 250px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 400px;
+    height: 250px;
+}
+
+.gmap_iframe {
+    width: 400px !important;
+    height: 250px !important;
+}
+
+.contactdetail i {
+    color: black ;
+}
+.contactdetail{
+    display: inline;
+}
+
+.facebook {
+    display: flex;
+    align-items: center;
+}
+
+.facebook a{
+    color: orange;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+}
