@@ -90,8 +90,9 @@ table {
 }
 
 .search-bar input {
+    border-radius: 100px;
     outline: none;
-    padding: 8px 5px;
+    padding: 8px 10px;
 }
 
 
