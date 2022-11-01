@@ -475,3 +475,31 @@ table {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1em;
 }
+
+.logo_abt {
+    margin: 0 auto;
+    margin-left: 25em;
+}
+
+.logo_abt img {
+    width: 300px;
+    height: auto;
+    transition: .3s;
+}
+
+.logo_abt img:hover {
+    transform: translateY(-10px);
+}
+
+.abt {
+    
+    text-align: center;
+}
+
+.abt p {
+    line-height: 25px;
+    margin-right: 10em;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
