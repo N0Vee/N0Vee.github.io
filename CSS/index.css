@@ -186,12 +186,12 @@ table {
     padding: 8px 10px;
 }
 
-.search-bar i{
+.search-bar i {
     cursor: pointer;
     transition: .3s;
 }
 
-.search-bar i:hover{
+.search-bar i:hover {
     color: orange;
 }
 
@@ -250,7 +250,7 @@ table {
     column-gap: 50px;
     margin: 1em 0 0 15em;
     border: 2px soid black;
-    width: 70%;
+    width: 80%;
 }
 
 .product {
@@ -274,7 +274,7 @@ table {
     font-weight: bold;
 }
 
-.product p a{
+.product p a {
     transition: .3s;
     text-decoration: none;
     color: black;
@@ -299,11 +299,88 @@ table {
     width: 220px;
 }
 
-.ads marquee{
+.ads marquee {
     border: 1px solid black;
     border-left: none;
     border-right: none;
 }
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2.5em;
+    
+}
+
+.slideshow-container img {
+   width: 1000px;
+   height: 500px;
+}
+
+
+.mySlides {
+    display: none;
+}
+
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
 
 @media screen and (max-height: 450px) {
     .sidenav {
@@ -313,4 +390,50 @@ table {
     .sidenav a {
         font-size: 18px;
     }
+}
+
+.imgdetail img {
+    width: 550px;
+    height: auto;
+}
+
+.namedetail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.45em;
+    font-weight: bold;
+}
+.pricedetail{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.buybtn{
+    padding: 5px 30px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: .3s;
+    cursor: pointer;
+}
+.buybtn:hover{
+    transform: translateY(-4px);
+    background-color: rgb(247, 94, 94);
+    border: 2px solid rgb(247, 94, 94);
+    
+}
+
+.txtdetail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt2detail{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
 }
