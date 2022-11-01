@@ -12,11 +12,13 @@
     <link rel="stylesheet" href="CSS\index.css">
     <link rel="icon" href="Images\logo.png">
 </head>
+
 <body>
     <header>
         <nav>
             <div class="menu">
-                <a href="index.html"><img src="Images\logo.png" alt="" ></a>
+                <a href="index.html"><img src="Images\logo.png" alt=""></a>
+                <span class="menu-open" onclick="openNav()"><i class="fa-solid fa-bars fa-2x"></i></span>
                 <ul class="nav">
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="headset.html" class="unactive">Store</a></li>
@@ -24,6 +26,7 @@
                     <li><a href="about.html" class="unactive">About</a></li>
                 </ul>
                 <div class="search-bar">
+                    <i class="fa-solid fa-cart-shopping fa-xl"></i>&nbsp;&nbsp;&nbsp;&nbsp;
                     <input type="text" placeholder="Search products">
                 </div>
             </div>
@@ -31,5 +34,62 @@
             <br>
         </nav>
     </header>
+    <aside>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="headset.html"><i class="fa-solid fa-headphones"></i>&nbsp;&nbsp;Headset</a><br>
+            <a href="#"><i class="fa-solid fa-keyboard"></i>&nbsp;&nbsp;Keyboard</a><br>
+            <a href="#"><i class="fa-solid fa-computer-mouse"></i>&nbsp;&nbsp;Mouse</a>
+        </div>
+    <div class="ads">
+        <marquee behavior="" direction="right" loop="infinite">
+            <a href="index.html"><img class="img-ads" src="/Images/6V.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/6M .jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/6K.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/5K.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/2V.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/5V.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/4M.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="index.html"><img class="img-ads" src="/Images/3K.jpg" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </marquee>
+    </div>
+    </aside>
+    <div class="main">
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="product">
+            <a href=""><img class="main-img" src="/Images/1V.jpg" alt=""></a>
+            <p class="product-name">LOGITECH PRO X GAMING HEADSET WITH BLUE VOICE</p>
+            <p><span class="price">4,590.-</span></p>
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/3fee813da8.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
