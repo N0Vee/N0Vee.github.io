@@ -186,6 +186,15 @@ table {
     padding: 8px 10px;
 }
 
+.search-bar i{
+    cursor: pointer;
+    transition: .3s;
+}
+
+.search-bar i:hover{
+    color: orange;
+}
+
 .img-ads {
     width: 200px;
     height: auto;
@@ -263,6 +272,16 @@ table {
     cursor: pointer;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
+}
+
+.product p a{
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+.product p a:hover {
+    color: orange;
 }
 
 .product p .price {
