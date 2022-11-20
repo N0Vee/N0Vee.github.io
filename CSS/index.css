@@ -1,1 +1,527 @@
-*{font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif}html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{min-height:100vh;line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.menu{display:flex;justify-content:space-between;align-items:center;height:100px}.menu img{margin:2em 0 0 2em;width:75px;height:auto}.nav li{margin:0 4.5em;display:inline}.nav li .unactive{padding:0 3px 4px 3px;font-weight:700;font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;text-decoration:none;color:#000}.active{padding:0 3px 4px 3px;font-weight:700;font-family:"Segoe UI",Tahoma,Geneva,Verdana,sans-serif;text-decoration:none}.active,.nav li a:hover{border-radius:1px;color:orange}.search-bar{display:flex;margin-right:3em;justify-content:space-between;align-items:center;height:100%}.search-bar input{border-radius:100px;outline:none;padding:8px 10px}.search-bar i{cursor:pointer;transition:.3s}.search-bar i:hover{color:orange}.img-ads{width:200px;height:auto}.sidenav{border:3px solid orange;border-top:none;border-left:none;height:100%;width:0;position:fixed;z-index:1;top:0;left:0;background-color:rgb(255,255,255);overflow-x:hidden;padding-top:60px;transition:0.3s}.menu-open i{margin:.2em 0 0 .5em}.sidenav a{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;padding:15px 8px 8px 32px;text-decoration:none;font-size:20px;font-weight:700;color:#000;display:block;transition:0.3s}.sidenav a:hover{color:orange}.sidenav .closebtn{position:absolute;top:0;right:25px;font-size:36px;margin-left:50px}.main{display:flex;flex-wrap:wrap;column-gap:50px;margin:1em 0 0 15em;border:2px soid #000;width:80%}.product{text-align:center;width:300px;height:300px}.product-name{transition:.3s}.product-name:hover{color:orange}.product p{cursor:pointer;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-weight:700}.product p a{transition:.3s;text-decoration:none;color:#000}.product p a:hover{color:orange}.product p .price{color:orangered}.main-img{width:200px;height:auto;transition:.3s}.main-img:hover{transform:translateY(-.5em);width:220px}.ads marquee{border:1px solid #000;border-left:none;border-right:none}.slideshow-container{max-width:1000px;position:relative;margin:auto;margin-top:2.5em}.slideshow-container img{width:1000px;height:500px}.mySlides{display:none}.prev,.next{cursor:pointer;position:absolute;top:50%;width:auto;margin-top:-22px;padding:16px;color:#fff;font-weight:700;font-size:18px;transition:0.6s ease;border-radius:0 3px 3px 0;user-select:none}.next{right:0;border-radius:3px 0 0 3px}.prev:hover,.next:hover{background-color:rgba(0,0,0,.8)}.text{color:#f2f2f2;font-size:15px;padding:8px 12px;position:absolute;bottom:8px;width:100%;text-align:center}.numbertext{color:#f2f2f2;font-size:12px;padding:8px 12px;position:absolute;top:0}.fade{animation-name:fade;animation-duration:1.5s}@keyframes fade{from{opacity:.4}to{opacity:1}}@media screen and (max-height:450px){.sidenav{padding-top:15px}.sidenav a{font-size:18px}}.imgdetail img{width:550px;height:auto}.namedetail{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:1.45em;font-weight:700}.pricedetail{color:orange;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-weight:bolder;font-size:2em}.buybtn{padding:5px 30px;background-color:red;border:2px solid red;color:#fff;font-size:20px;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-weight:700;border-radius:25px;transition:.3s;cursor:pointer}.buybtn:hover{transform:translateY(-4px);background-color:rgb(247,94,94);border:2px solid rgb(247,94,94)}.txtdetail{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:20px;font-weight:700}.txt2detail{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:15px}.mapouter{position:relative;text-align:right;width:400px;height:250px}.gmap_canvas{overflow:hidden;background:none!important;width:400px;height:250px}.gmap_iframe{width:400px!important;height:250px!important}.contactdetail i{color:#000}.contactdetail{display:inline}.facebook{display:flex;align-items:center}.facebook a{color:orange;font-weight:700;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-size:1em}.logo_abt{margin:0 auto;margin-left:25em}.logo_abt img{width:300px;height:auto;transition:.3s}.logo_abt img:hover{transform:translateY(-10px)}.abt{text-align:center}.abt p{line-height:25px;margin-right:10em;font-size:1em;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;font-weight:700}
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px
+}
+
+.menu img {
+    margin: 2em 0 0 2em;
+    width: 75px;
+    height: auto
+}
+
+.nav li {
+    margin: 0 4.5em;
+    display: inline
+}
+
+.nav li .unactive {
+    padding: 0 3px 4px 3px;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: #000
+}
+
+.active {
+    padding: 0 3px 4px 3px;
+    font-weight: 700;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none
+}
+
+.active,
+.nav li a:hover {
+    border-radius: 1px;
+    color: orange
+}
+
+.search-bar {
+    display: flex;
+    margin-right: 3em;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%
+}
+
+.search-bar input {
+    border-radius: 100px;
+    outline: none;
+    padding: 8px 10px
+}
+
+.search-bar i {
+    cursor: pointer;
+    transition: .3s
+}
+
+.search-bar i:hover {
+    color: orange
+}
+
+.img-ads {
+    width: 200px;
+    height: auto
+}
+
+.sidenav {
+    border: 3px solid orange;
+    border-top: none;
+    border-left: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.3s
+}
+
+.menu-open i {
+    margin: .2em 0 0 .5em
+}
+
+.sidenav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover {
+    color: orange
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    margin: 1em 0 0 15em;
+    border: 2px soid #000;
+    width: 80%
+}
+
+.product {
+    text-align: center;
+    width: 300px;
+    height: 300px
+}
+
+.product-name {
+    transition: .3s
+}
+
+.product-name:hover {
+    color: orange
+}
+
+.product p {
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700
+}
+
+.product p a {
+    transition: .3s;
+    text-decoration: none;
+    color: #000
+}
+
+.product p a:hover {
+    color: orange
+}
+
+.product p .price {
+    color: orangered
+}
+
+.main-img {
+    width: 200px;
+    height: auto;
+    transition: .3s
+}
+
+.main-img:hover {
+    transform: translateY(-.5em);
+    width: 220px
+}
+
+.ads marquee {
+    border: 1px solid #000;
+    border-left: none;
+    border-right: none
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 2.5em
+}
+
+.slideshow-container img {
+    width: 1000px;
+    height: 500px
+}
+
+.mySlides {
+    display: none
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, .8)
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (max-height:450px) {
+    .sidenav {
+        padding-top: 15px
+    }
+
+    .sidenav a {
+        font-size: 18px
+    }
+}
+
+.imgdetail img {
+    width: 550px;
+    height: auto
+}
+
+.namedetail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.45em;
+    font-weight: 700
+}
+
+.pricedetail {
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 2em
+}
+
+.buybtn {
+    padding: 5px 30px;
+    background-color: red;
+    border: 2px solid red;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    border-radius: 25px;
+    transition: .3s;
+    cursor: pointer
+}
+
+.buybtn:hover {
+    transform: translateY(-4px);
+    background-color: rgb(247, 94, 94);
+    border: 2px solid rgb(247, 94, 94)
+}
+
+.txtdetail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 700
+}
+
+.txt2detail {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px
+}
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    width: 400px;
+    height: 250px
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    width: 400px;
+    height: 250px
+}
+
+.gmap_iframe {
+    width: 400px !important;
+    height: 250px !important
+}
+
+.contactdetail i {
+    color: #000
+}
+
+.contactdetail {
+    display: inline
+}
+
+.facebook {
+    display: flex;
+    align-items: center
+}
+
+.facebook a {
+    color: orange;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em
+}
+
+.logo_abt {
+    margin: 0 auto;
+    margin-left: 25em
+}
+
+.logo_abt img {
+    width: 300px;
+    height: auto;
+    transition: .3s
+}
+
+.logo_abt img:hover {
+    transform: translateY(-10px)
+}
+
+.abt {
+    text-align: center
+}
+
+.abt p {
+    line-height: 25px;
+    margin-right: 10em;
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700
+}
+.people {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+
+}
+
+.info {
+    text-align: center;
+    display: inline;
+    width: 33.33%;
+    margin: 0 auto;
+}
+
+.info p {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info img {
+    width: 200px;
+    height: auto;
+}
+
